@@ -1,0 +1,31 @@
+{
+    "liveServer.settings.port": 5501,
+  // Ensure IntelliSense works for Tailwind
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.inlineSuggest.enabled": true,
+
+  // Recognize Tailwind classes in JSX, TSX, HTML
+  "files.associations": {
+    "*.html": "html",
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+
+  // Enable Tailwind validation
+  "tailwindCSS.validate": true,
+
+  // Use the project's Tailwind config
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "javascript": "javascriptreact",
+    "javascriptreact": "javascriptreact",
+    "typescript": "typescriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+
+  // Optional: Reduce conflicts with other CSS extensions
+  "css.validate": false,
+  "scss.validate": false
+}
